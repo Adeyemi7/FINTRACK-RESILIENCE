@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FinTrack Wallet Dashboard
 
-## Getting Started
+A responsive financial dashboard built for the Resilience 17 Venture Studio assessment.
 
-First, run the development server:
+## Live Demo
+- **Live Site**: [Add your deployed URL here]
+- **GitHub**: [Add your repo URL here]
 
+## What I Built
+A wallet dashboard that shows:
+- Summary cards with balance, credits, debits, and transaction count
+- Sortable transaction table (click column headers to sort)
+- Responsive design that works on mobile and desktop
+- Clean, modern UI matching the provided design
+
+## Tech Used
+- **React** with TypeScript for components
+- **Next.js** for the framework
+- **Tailwind CSS** for styling
+- **Vercel** for hosting
+
+## Features
+✅ Sortable transaction table  
+✅ Responsive mobile design  
+✅ TypeScript for type safety  
+✅ Clean component structure  
+✅ Matches the Figma design  
+
+## How to Run Locally
 ```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Open http://localhost:3000 to see the app.
+
+## How to Deploy
+```bash
+# Build for production
+npm run build
+
+# Deploy to Vercel
+npx vercel-- prod
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Components Built
+- **Sidebar** - Navigation menu
+- **Header** - Top bar with search and logo
+- **SummaryCard** - Individual summary cards
+- **TransactionTable** - Sortable data table
+- **Dashboard** - Main page combining everything
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## What I Learned
+- How to build sortable tables in React
+- Responsive design with Tailwind CSS
+- TypeScript interfaces for data structure
+- Component composition and reusability
+- Next.js project structure and deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Time Spent
+Approximately 8-9 hours, including:
+- Design analysis and planning
+- Component development
+- Responsive styling
+- Testing and deployment
