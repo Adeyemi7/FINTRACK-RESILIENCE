@@ -65,3 +65,9 @@ Approximately 8-9 hours, including:
 - Component development
 - Responsive styling
 - Testing and deployment
+
+
+## ![Dashboard Preview]
+<img width="1920" height="915" alt="Screenshot (477)" src="https://github.com/user-attachments/assets/112b492e-0432-4629-b429-9a6ad0d0fe3f" />
+
+<img width="1920" height="922" alt="Screenshot (478)" src="https://github.com/user-attachments/assets/099f23c8-5b36-43ee-8174-a138c7aa470c" />
